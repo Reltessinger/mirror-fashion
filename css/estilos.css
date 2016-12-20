@@ -1,0 +1,310 @@
+body {
+	/* Define a Cor e Família das fontes*/
+	color:#333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grand", sans-serif;
+}
+
+.container {
+	/* Define margens e tamanho*/
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;
+}
+
+.sacolaCompra {
+	/* Coloca a Imagem da sacola no background
+		e define sua posição */
+	background-image: url(../img/sacola.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	/* Define tamanho e tipo bloco */
+	padding-right: 35px;
+	width: 160px;
+	display: block;
+	padding-top:
+	/* Formatação da fonte */
+	font-size: 14px;
+	text-align: right;
+	/* Posição da sacola de compra */
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.menuCabecalho {
+	/* Posição do Menu do Cabeçalho */
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.menu-cabecalho {
+	/* Fonte do Menu */
+	font-size: 15px;
+}
+
+.item-menu-cabecalho {
+	/* Altera a posição do Menu */
+	display: inline;
+	margin-left: 20px;
+}
+
+.link-menu-cabecalho {
+	color: #003366;
+	text-decoration: none;
+}
+
+header {
+	position: relative;
+}
+
+.busca, .menuDepartamento {
+	padding: 5px 5px;
+	background-color: #DCDCDC;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	width: 225px;
+
+}
+
+.menuDepartamento {
+	clear: left;
+	text-transform:uppercase;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.busca {
+	border-top-left-radius: 5px;
+	border-top-rigth-radius: 5px;
+}
+
+.menu-dept {
+	margin-top: 25px;
+	list-style: none;
+	background-color: white;
+	text-indent: 10px;
+}
+
+.item-menu-dept {
+	padding: 5px;
+	border-bottom: 1px solid black;
+}
+
+.link-menu-dept {
+	color: black;
+	text-decoration: none;
+}
+
+.busca-input {
+	vertical-align: middle;
+}
+
+.busca-search {
+	width: 170px;
+	border-radius: 6px;
+}
+
+.painelNovidade {
+	background-color: #FFCCFF;
+	background: linear-gradient(#f5dcdc, #bebef4);
+	float: left;
+
+}
+
+.painelVendidos {
+	background-color: #C0D9D9;
+	background: linear-gradient(#dcdcf5, #f4bebe);
+	float: right;
+}
+
+.painel {
+	width: 49%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 4px #999;
+	margin: 10px 0;
+	transition: .5s;
+}
+
+.link-painel {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	text-align: center;
+}
+
+.item-painel {
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+	margin-bottom: 10px;
+}
+
+.painel-subtitulo {
+	margin: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 3px 3px 2px #FFF;
+}
+
+footer {
+	clear: both;
+	padding: 20px 0px;
+	background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;
+}
+
+.rodape {
+	position: relative;
+}
+
+.rodape li {
+	float: right;
+	margin: 5px 25px;
+}
+
+.rodape a {
+	/* tamanho da imagem */
+	height: 32px;
+	width: 32px;
+
+	/* image replacement */
+	display: block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 0;
+}
+.rodape a[href*="facebook.com"]{
+	background-image: url(../img/facebook.png);
+	background-repeat: no-repeat;
+}
+
+.rodape a[href*="twitter.com"]{
+	background-image: url(../img/twitter.png);
+	background-repeat: no-repeat;
+}
+
+.rodape a[href*="plus.google.com"]{
+	background-image: url(../img/googleplus.png);
+	background-repeat: no-repeat;
+}
+
+.titulo {
+	/* Define a Imagem de fundo do título e o espaço nas margens */
+	background-image: url(../img/sobre-background.jpg);
+	padding: 10px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.subtitulo {
+	/* Define a borda e margem dos subtitulos */
+	border-bottom: 2px solid #333333;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+.paragrafos {
+	/* Padronizar todos os parágrafos espaço das margem, Identação e Alinhamento */
+	font-family: "Lucida Sans Unicode", "Lucida Grand", sans-serif;
+	padding-top: 10px;
+	color: black;
+	text-indent: 20px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+.imagem-sobre {
+	/* Cor e alinhamento do Background, bordas e Legenda das imagens */
+	background-color: #F2EDED;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 15px;
+	margin: 30px;
+}
+
+.legenda-sobre {
+	/* Fonte e espaço da margem da legenda */
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.centro-distribuicao {
+	/* Margem e tamanho da imagem centro de distrubuição */
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+}
+
+.familia-pelho {
+	/* Define localização da imagem familia-pelho e margem */
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+.lista-diferenciais {
+	list-style-position: inside;
+	list-style-type: disc;
+	padding: 0 15px;
+}
+
+.item-lista-diferenciais {
+	font-family: "Lucida Sans Unicode", "Lucida Grand", sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+li ul {
+  display: none;
+}
+
+li:hover ul {
+  display: block;
+  padding: 0;
+  background: white;
+}
+
+li:hover {
+  background: #DCDCDC;
+}
+
+.painel li:hover {
+  background-color: rgba(255,255,255,0.8);
+  box-shadow: 0 0 5px #333;
+  transform: rotate(-5deg) scale(1.2);
+}
+
+.painel li:nth-child(2n):hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+.novidades-btn {
+	float: right;
+	margin-right:  10px;
+	padding: 10px;
+
+	background-color: #333;
+	border: 0;
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px rgba(30, 30, 30, 0.5);
+	color: white;
+	font-size: 1em;
+	text-decoration: none;
+	text-shadow: 1px 0 1px black;
+
+	transition: 0.3s;
+}
+
+.painelNovidade .some {
+	display: none;
+}
